@@ -99,3 +99,15 @@
   font-weight: 500;
   margin-left: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .password-item {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .password-item {
+    min-width: 45%;
+  }
+}
