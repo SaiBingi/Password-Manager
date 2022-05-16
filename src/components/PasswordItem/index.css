@@ -49,7 +49,6 @@
 .password-item {
   border: 1px solid #9ba9eb;
   border-radius: 4px;
-  min-width: 390px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,14 +99,21 @@
   margin-left: 10px;
 }
 
-@media screen and (max-width: 576px) {
+
+@media screen and (min-width: 1200px) {
   .password-item {
-    min-width: 100%;
+    min-width: 31%;
   }
 }
 
 @media screen and (max-width: 992px) {
   .password-item {
     min-width: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .password-item {
+    min-width: 100%;
   }
 }
